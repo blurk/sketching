@@ -6,7 +6,7 @@ const eases = require("eases");
 
 const colormap = require("colormap");
 
-const { colormapName } = require("./colormapName");
+const { colormapEva, colormapName } = require("./colormapName");
 
 const settings = {
   dimensions: [1080, 1080],
@@ -53,9 +53,11 @@ const sketch = () => {
   }
 
   const colors = colormap({
-    colormap: colormapName.spring,
+    colormap: colormapName.summer,
     nshades: numCircles,
   });
+
+  // const colors = colormapEva
 
   const bgColor = csu_random.pick(colors.slice(10));
   const fColor = csu_random.pick(colors.slice(-10));

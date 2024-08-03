@@ -45,6 +45,26 @@ const COLOR_MAP_NAME = {
   cubehelix: "cubehelix",
 };
 
+const COLOR_EVA = [
+  "#f7555b",
+  "#fb855b",
+  "#e8929d",
+  "#f9c09a",
+  "#55b4ea",
+  "#9bd4f0",
+  "#f8d9c2",
+  "#c060ba",
+  "#ebbbcb",
+  "#f9f9f8",
+  "#cae6f3",
+  "#6649b0",
+  "#f4d7df",
+  "#f9ead8",
+  "#dff1f8",
+  "#28cc84",
+];
+
 module.exports = {
   colormapName: COLOR_MAP_NAME,
+  colormapEva: COLOR_EVA,
 };
